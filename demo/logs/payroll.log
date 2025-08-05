@@ -1,0 +1,156 @@
+2025-08-01T18:36:07.883+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 8940 (E:\payroll_app\PMS (2)\PMS\demo\target\classes started by SIDHARTHA in E:\payroll_app\PMS (2)\PMS\demo)
+2025-08-01T18:36:07.892+05:30 DEBUG 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-08-01T18:36:07.906+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-01T18:36:08.059+05:30  INFO 8940 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-01T18:36:08.060+05:30  INFO 8940 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-01T18:36:10.158+05:30  INFO 8940 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01T18:36:10.342+05:30  INFO 8940 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 164 ms. Found 9 JPA repository interfaces.
+2025-08-01T18:36:11.594+05:30  INFO 8940 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8333 (http)
+2025-08-01T18:36:11.623+05:30  INFO 8940 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-01T18:36:11.624+05:30  INFO 8940 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-08-01T18:36:11.759+05:30  INFO 8940 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-01T18:36:11.762+05:30  INFO 8940 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3700 ms
+2025-08-01T18:36:12.103+05:30  INFO 8940 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01T18:36:12.231+05:30  INFO 8940 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-08-01T18:36:12.308+05:30  INFO 8940 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-01T18:36:12.858+05:30  INFO 8940 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01T18:36:12.921+05:30  INFO 8940 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-01T18:36:13.833+05:30  INFO 8940 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5493d37b
+2025-08-01T18:36:13.837+05:30  INFO 8940 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-01T18:36:13.987+05:30  WARN 8940 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-01T18:36:13.989+05:30  WARN 8940 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-01T18:36:14.033+05:30  INFO 8940 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01T18:36:15.933+05:30  INFO 8940 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01T18:36:16.321+05:30  INFO 8940 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01T18:36:16.941+05:30  INFO 8940 --- [demo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-01T18:36:19.011+05:30  WARN 8940 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01T18:36:19.088+05:30  WARN 8940 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c262238f-b02d-4231-9f54-fde68d747402
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-01T18:36:19.126+05:30  INFO 8940 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-01T18:36:19.820+05:30  WARN 8940 --- [demo] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-01T18:36:20.090+05:30  INFO 8940 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-01T18:36:20.189+05:30  INFO 8940 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8333 (http) with context path '/'
+2025-08-01T18:36:20.216+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 13.295 seconds (process running for 15.264)
+2025-08-01T18:36:20.226+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Application started with Log4j2
+2025-08-01T18:36:28.786+05:30  INFO 8940 --- [demo] [http-nio-8333-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-01T18:36:28.786+05:30  INFO 8940 --- [demo] [http-nio-8333-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-01T18:36:28.790+05:30  INFO 8940 --- [demo] [http-nio-8333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-08-01T19:00:03.637+05:30  INFO 8940 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-01T19:00:03.701+05:30  INFO 8940 --- [demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01T19:00:03.726+05:30  INFO 8940 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-01T19:00:03.873+05:30  INFO 8940 --- [demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01T19:00:03.957+05:30  INFO 8940 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-01T19:00:04.025+05:30  INFO 8940 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-01T19:00:04.865+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 8940 (E:\payroll_app\PMS (2)\PMS\demo\target\classes started by SIDHARTHA in E:\payroll_app\PMS (2)\PMS\demo)
+2025-08-01T19:00:04.868+05:30 DEBUG 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-08-01T19:00:04.871+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-01T19:00:05.857+05:30  INFO 8940 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01T19:00:06.000+05:30  INFO 8940 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 9 JPA repository interfaces.
+2025-08-01T19:00:06.424+05:30  INFO 8940 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8333 (http)
+2025-08-01T19:00:06.425+05:30  INFO 8940 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-01T19:00:06.426+05:30  INFO 8940 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-08-01T19:00:06.505+05:30  INFO 8940 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-01T19:00:06.505+05:30  INFO 8940 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
+2025-08-01T19:00:06.638+05:30  INFO 8940 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01T19:00:06.646+05:30  INFO 8940 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-01T19:00:06.696+05:30  INFO 8940 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01T19:00:06.697+05:30  INFO 8940 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-08-01T19:00:06.742+05:30  INFO 8940 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18dbc4ca
+2025-08-01T19:00:06.742+05:30  INFO 8940 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-08-01T19:00:06.744+05:30  WARN 8940 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-01T19:00:06.744+05:30  WARN 8940 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-01T19:00:06.745+05:30  INFO 8940 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01T19:00:07.383+05:30  INFO 8940 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01T19:00:07.592+05:30  INFO 8940 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01T19:00:08.227+05:30  WARN 8940 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01T19:00:08.267+05:30  WARN 8940 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 84e5de78-57ab-4a2c-97ce-c64df7cd9d71
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-01T19:00:08.273+05:30  INFO 8940 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-01T19:00:08.526+05:30  WARN 8940 --- [demo] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-01T19:00:08.714+05:30  INFO 8940 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-01T19:00:08.759+05:30  INFO 8940 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8333 (http) with context path '/'
+2025-08-01T19:00:08.781+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.099 seconds (process running for 1443.829)
+2025-08-01T19:00:08.786+05:30  INFO 8940 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-01T19:00:08.788+05:30  INFO 8940 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Application started with Log4j2
+2025-08-01T19:02:10.543+05:30  INFO 8940 --- [demo] [RMI TCP Connection(35)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-01T19:02:10.545+05:30  INFO 8940 --- [demo] [RMI TCP Connection(35)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01T19:02:10.554+05:30  INFO 8940 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-01T19:02:10.561+05:30  INFO 8940 --- [demo] [RMI TCP Connection(35)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01T19:02:10.562+05:30  INFO 8940 --- [demo] [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-01T19:02:10.572+05:30  INFO 8940 --- [demo] [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-08-01T19:02:20.198+05:30  INFO 8076 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.5 with PID 8076 (E:\payroll_app\PMS (2)\PMS\demo\target\classes started by SIDHARTHA in E:\payroll_app\PMS (2)\PMS\demo)
+2025-08-01T19:02:20.201+05:30 DEBUG 8076 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-08-01T19:02:20.203+05:30  INFO 8076 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-01T19:02:20.309+05:30  INFO 8076 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-01T19:02:20.310+05:30  INFO 8076 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-01T19:02:21.665+05:30  INFO 8076 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01T19:02:21.792+05:30  INFO 8076 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 9 JPA repository interfaces.
+2025-08-01T19:02:22.738+05:30  INFO 8076 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8333 (http)
+2025-08-01T19:02:22.767+05:30  INFO 8076 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-01T19:02:22.768+05:30  INFO 8076 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-08-01T19:02:22.871+05:30  INFO 8076 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-01T19:02:22.872+05:30  INFO 8076 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2560 ms
+2025-08-01T19:02:23.150+05:30  INFO 8076 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01T19:02:23.250+05:30  INFO 8076 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-08-01T19:02:23.320+05:30  INFO 8076 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-01T19:02:23.888+05:30  INFO 8076 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01T19:02:23.939+05:30  INFO 8076 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-01T19:02:24.491+05:30  INFO 8076 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3edf3843
+2025-08-01T19:02:24.494+05:30  INFO 8076 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-01T19:02:24.611+05:30  WARN 8076 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-01T19:02:24.619+05:30  WARN 8076 --- [demo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-01T19:02:24.658+05:30  INFO 8076 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01T19:02:26.464+05:30  INFO 8076 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01T19:02:26.657+05:30  INFO 8076 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01T19:02:27.227+05:30  INFO 8076 --- [demo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-01T19:02:29.240+05:30  WARN 8076 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01T19:02:29.299+05:30  WARN 8076 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 67b1ca40-2a6e-441f-a619-00c84cf9915a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-01T19:02:29.331+05:30  INFO 8076 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-01T19:02:29.886+05:30  WARN 8076 --- [demo] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-08-01T19:02:30.130+05:30  INFO 8076 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-01T19:02:30.263+05:30  INFO 8076 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8333 (http) with context path '/'
+2025-08-01T19:02:30.289+05:30  INFO 8076 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 10.963 seconds (process running for 12.622)
+2025-08-01T19:02:30.299+05:30  INFO 8076 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Application started with Log4j2
+2025-08-01T19:03:39.764+05:30  INFO 8076 --- [demo] [http-nio-8333-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-01T19:03:39.765+05:30  INFO 8076 --- [demo] [http-nio-8333-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-01T19:03:39.767+05:30  INFO 8076 --- [demo] [http-nio-8333-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-01T19:12:43.895+05:30  INFO 8076 --- [demo] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-01T19:12:43.900+05:30  INFO 8076 --- [demo] [RMI TCP Connection(18)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01T19:12:43.908+05:30  INFO 8076 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-01T19:12:43.919+05:30  INFO 8076 --- [demo] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01T19:12:43.925+05:30  INFO 8076 --- [demo] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-01T19:12:43.942+05:30  INFO 8076 --- [demo] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
