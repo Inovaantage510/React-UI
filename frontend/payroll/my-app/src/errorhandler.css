@@ -1,0 +1,19 @@
+#notfound {
+    background-image: url("../public/404.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 580px;
+    width: 89%;
+    margin: auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#policy
+{
+    margin-left: 34%;
+    padding-left: 50px;
+    padding-top: 90px;
+    color: gray;
+}

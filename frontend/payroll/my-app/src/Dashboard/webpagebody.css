@@ -1,0 +1,25 @@
+#comapnylogo_in_body 
+{
+    background-image: url('/public/inovaantage-logo-new.png');
+    height:100px;
+    width:200px;
+    margin-top:10px;
+    margin-left:164px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#container 
+{
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    padding-bottom:45%;
+
+}
+#postionsetting
+{
+      margin-top:-57%;
+}
+#wholeb
+{
+    background-color: gray;
+}

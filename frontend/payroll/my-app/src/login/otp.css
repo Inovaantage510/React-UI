@@ -1,0 +1,26 @@
+.otp-box {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    margin: 0 4px;
+    text-align: center;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    outline: none;  
+  }
+  
+  .otp-box:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px #007bff80;
+  }
+  
+  /* Responsive for larger screens */
+  @media (min-width: 768px) {
+    .otp-box {
+      width: 60px;
+      height: 60px;
+      font-size: 24px;
+      margin: 0 6px; 
+    }
+  }
+  
